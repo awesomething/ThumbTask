@@ -29,13 +29,13 @@
   }
   form button {
     color: #ff6f47;
-    background: #f7fffe;
+    background: darkgrey;
     cursor: pointer;
     transition: all 0.3s ease;
   }
   form button:hover {
     background: #ff6f47;
-    color: white;
+    color: grey;
   }
   .todo-container {
     display: flex;
@@ -50,7 +50,7 @@
   
   .todo {
     margin: 0.5rem;
-    background: white;
+    background:darkgrey;
     font-size: 1.5rem;
     color: black;
     display: flex;
