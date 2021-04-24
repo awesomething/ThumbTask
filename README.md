@@ -15,17 +15,17 @@
 
  ### About Page
 
- ![about](https://github.com/awesomething/ThumbTask/blob/main/images/About.PNG) 
+ ![about](https://github.com/awesomething/ThumbTask/blob/main/images/About.JPG) 
 
 
 ### Task Page
 
-![Post](https://github.com/awesomething/ThumbTask/blob/main/images/Create.png) 
+![Post](https://github.com/awesomething/ThumbTask/blob/main/images/Create.JPG) 
 
 
 ### Achievement Page
 
-![List](https://github.com/awesomething/ThumbTask/blob/main/images/Checked.png) 
+![List](https://github.com/awesomething/ThumbTask/blob/main/images/Checked.JPG) 
 
 <h3> How Does ThumbTask Work?</h3>
 
