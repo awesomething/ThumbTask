@@ -2,7 +2,10 @@ import React from 'react';
 import { shallow } from 'enzyme'
 import toJson from 'enzyme-to-json'
 import Header from '../components/Header'
+import {configure} from 'enzyme'
+import Adapter from 'enzyme-adapter-react-16'
 
+configure({ adapter: new Adapter() })
 
 
 describe(`Header component`, () => {
@@ -13,12 +16,12 @@ describe(`Header component`, () => {
   }
 
   it('renders a Header by default', () => {
-    const wrapper = shallow(<Header />)
+    const wrapper = shallow(<Header {...props}/>)
     expect(toJson(wrapper)).toMatchSnapshot()
   })
 
   it('renders the Header given props', () => {
-    const wrapper = shallow(<Header {...props} />)
+    const wrapper = shallow(<Header />)
     expect(toJson(wrapper)).toMatchSnapshot()
   })
 })

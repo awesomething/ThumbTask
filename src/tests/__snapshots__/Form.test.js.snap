@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form component renders a Form by default 1`] = `
+<form>
+  <input
+    classNameName="todo-input"
+    onChange={[Function]}
+    type="text"
+  />
+  <button
+    className="todo-button"
+    onClick={[Function]}
+    type="submit"
+  >
+    <i
+      className="fas fa-plus-square"
+    />
+  </button>
+  <div
+    className="select"
+  >
+    <select
+      className="filter-todo"
+      name="todos"
+      onChange={[Function]}
+    >
+      <option
+        value="all"
+      >
+        All
+      </option>
+      <option
+        value="completed"
+      >
+        Completed
+      </option>
+      <option
+        value="uncompleted"
+      >
+        Uncompleted
+      </option>
+    </select>
+  </div>
+</form>
+`;
+
+exports[`Form component renders the Form given props 1`] = `
+<form>
+  <input
+    classNameName="todo-input"
+    onChange={[Function]}
+    type="text"
+  />
+  <button
+    className="todo-button"
+    onClick={[Function]}
+    type="submit"
+  >
+    <i
+      className="fas fa-plus-square"
+    />
+  </button>
+  <div
+    className="select"
+  >
+    <select
+      className="filter-todo"
+      name="todos"
+      onChange={[Function]}
+    >
+      <option
+        value="all"
+      >
+        All
+      </option>
+      <option
+        value="completed"
+      >
+        Completed
+      </option>
+      <option
+        value="uncompleted"
+      >
+        Uncompleted
+      </option>
+    </select>
+  </div>
+</form>
+`;

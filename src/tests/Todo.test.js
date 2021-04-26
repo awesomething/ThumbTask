@@ -2,7 +2,10 @@ import React from 'react';
 import { shallow } from 'enzyme'
 import toJson from 'enzyme-to-json'
 import Todo from '../components/Todo'
+import {configure} from 'enzyme'
+import Adapter from 'enzyme-adapter-react-16'
 
+configure({ adapter: new Adapter() })
 
 
 describe(`Todo component`, () => {
@@ -12,7 +15,7 @@ describe(`Todo component`, () => {
     
   }
 
-  it('renders a Todo by default', () => {
+  it('renders a .Todo by default', () => {
     const wrapper = shallow(<Todo />)
     expect(toJson(wrapper)).toMatchSnapshot()
   })

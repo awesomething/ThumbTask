@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component renders a Header by default 1`] = `
+<div
+  className="header"
+>
+  <Link
+    to="/"
+  >
+    <center>
+      <h2>
+        ThumbTask
+      </h2>
+    </center>
+    <img
+      alt=""
+      className="header__icon"
+      src="https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_bb487be551c0717712203a6d6cd29e01/thumbtack.png"
+    />
+  </Link>
+  <div
+    className="header_info"
+  >
+    <h5>
+      We make writing goals look cool
+    </h5>
+    <WithStyles(ForwardRef(Button))
+      onClick={[Function]}
+      variant="outlined"
+    >
+      Organize Your Tasks
+    </WithStyles(ForwardRef(Button))>
+  </div>
+</div>
+`;
+
+exports[`Header component renders the Header given props 1`] = `
+<div
+  className="header"
+>
+  <Link
+    to="/"
+  >
+    <center>
+      <h2>
+        ThumbTask
+      </h2>
+    </center>
+    <img
+      alt=""
+      className="header__icon"
+      src="https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_bb487be551c0717712203a6d6cd29e01/thumbtack.png"
+    />
+  </Link>
+  <div
+    className="header_info"
+  >
+    <h5>
+      We make writing goals look cool
+    </h5>
+    <WithStyles(ForwardRef(Button))
+      onClick={[Function]}
+      variant="outlined"
+    >
+      Organize Your Tasks
+    </WithStyles(ForwardRef(Button))>
+  </div>
+</div>
+`;

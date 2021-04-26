@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Todo component renders a .Todo by default 1`] = `
+<div
+  className="todo"
+>
+  <li
+    className="todo-item  "
+  />
+  <button
+    className="complete-btn"
+    onClick={[Function]}
+  >
+    <i
+      className="fas fa-check"
+    />
+  </button>
+  <button
+    className="trash-btn"
+    onClick={[Function]}
+  >
+    <i
+      className="fas fa-trash"
+    />
+  </button>
+</div>
+`;
+
+exports[`Todo component renders the Todo given props 1`] = `
+<div
+  className="todo"
+>
+  <li
+    className="todo-item  "
+  />
+  <button
+    className="complete-btn"
+    onClick={[Function]}
+  >
+    <i
+      className="fas fa-check"
+    />
+  </button>
+  <button
+    className="trash-btn"
+    onClick={[Function]}
+  >
+    <i
+      className="fas fa-trash"
+    />
+  </button>
+</div>
+`;

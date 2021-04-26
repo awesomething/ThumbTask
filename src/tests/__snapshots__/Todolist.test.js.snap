@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Todolist component renders a .Todolist by default 1`] = `
+<div
+  className="todo-container"
+>
+  <ul
+    className="todo-list"
+  />
+</div>
+`;
+
+exports[`Todolist component renders the Todolist given props 1`] = `
+<div
+  className="todo-container"
+>
+  <ul
+    className="todo-list"
+  />
+</div>
+`;

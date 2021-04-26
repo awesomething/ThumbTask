@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchPage component renders a SearchPage by default 1`] = `
+<div
+  className="SearchPage"
+>
+  <header>
+    <h1>
+      Weekly Tasks
+    </h1>
+  </header>
+  <Form
+    inputText=""
+    setInputText={[Function]}
+    setStatus={[Function]}
+    setTodos={[Function]}
+    todos={Array []}
+  />
+  <Todolist
+    filteredTodos={Array []}
+    setTodos={[Function]}
+    todos={Array []}
+  />
+  <section
+    className="section section--three u-margin-bottom-xxxl"
+  />
+  <footer
+    className="footer u-margin-bottom-big"
+  >
+    <center>
+      <div
+        className="footer__brand-container"
+      >
+        <p
+          className="footer__author-text"
+        >
+          Created by 
+          <a
+            href="http://www.henryebomah-awesomething.vercel.app/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Henry Ebomah
+          </a>
+        </p>
+        <div
+          className="footer__social-media u-margin-bottom-small "
+        >
+          <a
+            href="https://github.com/awesomething"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <i
+              className="fab fa-github"
+            />
+          </a>
+          |
+          <a
+            href="https://www.linkedin.com/in/henryebomah/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <i
+              className="fab fa-linkedin"
+            />
+          </a>
+        </div>
+        <div
+          className="copyright-text"
+        >
+          <p>
+            Copyright © 2021
+            <br />
+            All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </center>
+  </footer>
+</div>
+`;
+
+exports[`SearchPage component renders the SearchPage given props 1`] = `
+<div
+  className="SearchPage"
+>
+  <header>
+    <h1>
+      Weekly Tasks
+    </h1>
+  </header>
+  <Form
+    inputText=""
+    setInputText={[Function]}
+    setStatus={[Function]}
+    setTodos={[Function]}
+    todos={Array []}
+  />
+  <Todolist
+    filteredTodos={Array []}
+    setTodos={[Function]}
+    todos={Array []}
+  />
+  <section
+    className="section section--three u-margin-bottom-xxxl"
+  />
+  <footer
+    className="footer u-margin-bottom-big"
+  >
+    <center>
+      <div
+        className="footer__brand-container"
+      >
+        <p
+          className="footer__author-text"
+        >
+          Created by 
+          <a
+            href="http://www.henryebomah-awesomething.vercel.app/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Henry Ebomah
+          </a>
+        </p>
+        <div
+          className="footer__social-media u-margin-bottom-small "
+        >
+          <a
+            href="https://github.com/awesomething"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <i
+              className="fab fa-github"
+            />
+          </a>
+          |
+          <a
+            href="https://www.linkedin.com/in/henryebomah/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <i
+              className="fab fa-linkedin"
+            />
+          </a>
+        </div>
+        <div
+          className="copyright-text"
+        >
+          <p>
+            Copyright © 2021
+            <br />
+            All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </center>
+  </footer>
+</div>
+`;

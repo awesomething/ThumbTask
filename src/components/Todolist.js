@@ -1,13 +1,13 @@
 import React from 'react';
 import Todo from "./Todo"
-
+import config from '../config'
 
 const Todolist = ({ todos, setTodos, filteredTodos }) => {
   
     return (
     <div className="todo-container">
       <ul className="todo-list">
-        {filteredTodos.map((todo) => (
+        {filteredTodos && filteredTodos.map((todo) => (
             <Todo 
             setTodos={setTodos} 
             todos={todos} 

@@ -1,0 +1,277 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component renders a Home by default 1`] = `
+<div
+  className="home-page-wrapper"
+>
+  <center>
+    <section
+      className="section section--one fade-in-bottom"
+    >
+      <div
+        className="section--one__text-box u-center-text"
+      >
+        <h3
+          className="heading-primary u-margin-bottom-medium"
+        >
+          <span
+            className="heading-primary--main u-margin-bottom-small"
+          >
+            An entirely better way to save your tasks. 
+          </span>
+          <span
+            className="heading-primary--sub"
+          >
+            ThumbTask helps you save all tasks in one place, while you’re meeting and achieving your goals. Transform your goals into a world of infinite possibility.
+          </span>
+        </h3>
+        <Link
+          className="btn btn--blue"
+          onClick={[Function]}
+          to="/searchPage"
+        >
+          Explore ThumbTask
+        </Link>
+      </div>
+    </section>
+    <section
+      className="section section--two u-margin-bottom-xxxl"
+    >
+      <div
+        className="heading-text-box u-center-text u-margin-bottom-big"
+      >
+        <h3
+          className="heading-text-box--tertiary"
+        >
+          Experience simplicity at best!
+        </h3>
+        <h4
+          className="heading-text-box--secondary"
+        >
+          Take control of your weekly goals. Understand what milestones you need to meet ahead of time!
+        </h4>
+      </div>
+      <div
+        className="section--two__cards u-margin-bottom-medium"
+      >
+        <div
+          className="section-3"
+        />
+        <div
+          className="home_section"
+        >
+          <Card
+            src="images/medium.jpg"
+            title="Write down and save your tasks with us"
+          />
+          <Card
+            src="images/tall.png"
+            title="Get organized and track progress easily"
+          />
+          <Card
+            src="images/small.jpg"
+            title="Meet your goals weekly and reward yourself"
+          />
+        </div>
+      </div>
+    </section>
+    <section
+      className="section section--three u-margin-bottom-xxxl"
+    >
+      <hr />
+    </section>
+    <footer
+      className="footer u-margin-bottom-big"
+    >
+      <center>
+        <div
+          className="footer__brand-container"
+        >
+          <p
+            className="footer__author-text"
+          >
+            Created by 
+            <a
+              href="http://www.henryebomah-awesomething.vercel.app/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Henry Ebomah
+            </a>
+          </p>
+          <div
+            className="footer__social-media u-margin-bottom-small "
+          >
+            <a
+              href="https://github.com/awesomething"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <i
+                className="fab fa-github"
+              />
+            </a>
+            |
+            <a
+              href="https://www.linkedin.com/in/henryebomah/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <i
+                className="fab fa-linkedin"
+              />
+            </a>
+          </div>
+          <div
+            className="copyright-text"
+          >
+            <p>
+              Copyright © 2021
+              <br />
+              All Rights Reserved
+            </p>
+          </div>
+        </div>
+      </center>
+    </footer>
+  </center>
+</div>
+`;
+
+exports[`Home component renders the Home given props 1`] = `
+<div
+  className="home-page-wrapper"
+>
+  <center>
+    <section
+      className="section section--one fade-in-bottom"
+    >
+      <div
+        className="section--one__text-box u-center-text"
+      >
+        <h3
+          className="heading-primary u-margin-bottom-medium"
+        >
+          <span
+            className="heading-primary--main u-margin-bottom-small"
+          >
+            An entirely better way to save your tasks. 
+          </span>
+          <span
+            className="heading-primary--sub"
+          >
+            ThumbTask helps you save all tasks in one place, while you’re meeting and achieving your goals. Transform your goals into a world of infinite possibility.
+          </span>
+        </h3>
+        <Link
+          className="btn btn--blue"
+          onClick={[Function]}
+          to="/searchPage"
+        >
+          Explore ThumbTask
+        </Link>
+      </div>
+    </section>
+    <section
+      className="section section--two u-margin-bottom-xxxl"
+    >
+      <div
+        className="heading-text-box u-center-text u-margin-bottom-big"
+      >
+        <h3
+          className="heading-text-box--tertiary"
+        >
+          Experience simplicity at best!
+        </h3>
+        <h4
+          className="heading-text-box--secondary"
+        >
+          Take control of your weekly goals. Understand what milestones you need to meet ahead of time!
+        </h4>
+      </div>
+      <div
+        className="section--two__cards u-margin-bottom-medium"
+      >
+        <div
+          className="section-3"
+        />
+        <div
+          className="home_section"
+        >
+          <Card
+            src="images/medium.jpg"
+            title="Write down and save your tasks with us"
+          />
+          <Card
+            src="images/tall.png"
+            title="Get organized and track progress easily"
+          />
+          <Card
+            src="images/small.jpg"
+            title="Meet your goals weekly and reward yourself"
+          />
+        </div>
+      </div>
+    </section>
+    <section
+      className="section section--three u-margin-bottom-xxxl"
+    >
+      <hr />
+    </section>
+    <footer
+      className="footer u-margin-bottom-big"
+    >
+      <center>
+        <div
+          className="footer__brand-container"
+        >
+          <p
+            className="footer__author-text"
+          >
+            Created by 
+            <a
+              href="http://www.henryebomah-awesomething.vercel.app/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Henry Ebomah
+            </a>
+          </p>
+          <div
+            className="footer__social-media u-margin-bottom-small "
+          >
+            <a
+              href="https://github.com/awesomething"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <i
+                className="fab fa-github"
+              />
+            </a>
+            |
+            <a
+              href="https://www.linkedin.com/in/henryebomah/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <i
+                className="fab fa-linkedin"
+              />
+            </a>
+          </div>
+          <div
+            className="copyright-text"
+          >
+            <p>
+              Copyright © 2021
+              <br />
+              All Rights Reserved
+            </p>
+          </div>
+        </div>
+      </center>
+    </footer>
+  </center>
+</div>
+`;

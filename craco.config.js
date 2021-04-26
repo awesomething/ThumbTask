@@ -1,5 +1,10 @@
 module.exports = {
-    eslint: {
-      enable: false,
+  eslint: {
+    enable: false,
+  },
+  style: {
+    postcss: {
+      plugins: [require("tailwindcss"), require("autoprefixer")],
     },
-  };
+  },
+};

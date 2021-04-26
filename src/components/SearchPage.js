@@ -23,11 +23,11 @@ function SearchPage() {
 
   const filterHandler = () => {
     switch(status){
-      case 'completed':
-        setFilteredTodos(todos.filter(todo => todo.completed === true));
+      case 'true':
+        setFilteredTodos(todos.filter(todo => todo.categories === true));
         break;
-        case 'uncompleted':
-          setFilteredTodos(todos.filter(todo => todo.completed === false));
+        case 'false':
+          setFilteredTodos(todos.filter(todo => todo.categories === false));
           break;
         default:
           setFilteredTodos(todos);
