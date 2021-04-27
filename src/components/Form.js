@@ -42,19 +42,20 @@ const postTodos = (title, categories) =>{
       <input 
       value={inputText} 
       onChange={inputTextHandler} 
+      required
       type="text" 
-      classNameName="todo-input" />
+      className="todo-input" />
 
       <button className="todo-button" type="submit">
         <i className="fas fa-plus-square"></i>
       </button>
-      <div className="select">
+      {/* <div className="select">
         <select onChange={statusHandler} name="todos" className="filter-todo">
           <option value="all">All</option>
           <option value="completed">Completed</option>
           <option value="uncompleted">Uncompleted</option>
         </select>
-      </div>
+      </div> */}
     </form>
     );
 }

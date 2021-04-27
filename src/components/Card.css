@@ -57,7 +57,7 @@
     
 @media (max-width: 800px) {
   .card, .card > img {
-    max-width: 375px;
+    width: 90%;
     flex-wrap: wrap;
     flex-direction: row;
   }
